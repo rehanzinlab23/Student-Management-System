@@ -85,15 +85,3 @@ input:focus {
      box-shadow: 0 0 0 4px var(--ring);
      background-color: var(--surface);
 }
-
-@media (max-width: 640px) {
-     .MuiTableCell-root {
-          padding: 8px 10px;
-          font-size: 12px;
-     }
-
-     .MuiTableCell-head {
-          font-size: 11px;
-          letter-spacing: 0.02em;
-     }
-}
