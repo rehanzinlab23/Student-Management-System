@@ -7,7 +7,7 @@
      --bg-accent-2: rgba(14, 116, 144, 0.18);
      --bg-top: #f8fafc;
      --bg-bottom: #e2e8f0;
-     --surface: rgba(255, 255, 255, 0.9);
+     --surface: rgb(255, 255, 255);
      --surface-strong: rgba(255, 255, 255, 0.7);
      --surface-border: rgba(226, 232, 240, 0.9);
      --surface-soft: rgba(248, 250, 252, 0.95);
@@ -33,7 +33,7 @@ body[data-theme="dark"] {
      --bg-accent-2: rgba(99, 102, 241, 0.16);
      --bg-top: #0b1120;
      --bg-bottom: #111827;
-     --surface: rgba(15, 23, 42, 0.92);
+     --surface: rgb(15, 23, 42);
      --surface-strong: rgba(15, 23, 42, 0.75);
      --surface-border: rgba(30, 41, 59, 0.95);
      --surface-soft: rgba(15, 23, 42, 0.95);
