@@ -115,7 +115,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="grid gap-6 sm:gap-8 lg:grid-cols-[1.1fr_2fr]">
+        <div className="lg:grid gap-6 sm:gap-8 lg:grid-cols-[1.1fr_2fr] sm:flex sm:flex-col">
           <div
             className="rounded-3xl border p-6"
             style={{
