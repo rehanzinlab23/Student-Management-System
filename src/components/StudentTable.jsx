@@ -155,7 +155,10 @@ export default function StudentTable({ students, setStudents }) {
                   </span>
                 </TableCell>
                 <TableCell align="center" className="capitalize">
-                  <span className="text-sm font-semibold" style={{ color: "var(--text)" }}>
+                  <span
+                    className="text-sm font-semibold"
+                    style={{ color: "var(--text)" }}
+                  >
                     {student.name}
                   </span>
                 </TableCell>
@@ -228,7 +231,7 @@ export default function StudentTable({ students, setStudents }) {
         <DialogTitle sx={{ fontWeight: 600, pb: 1.5 }}>
           Delete Student
         </DialogTitle>
-        <DialogContent sx={{ pb: 0 }}>
+        <DialogContent sx={{ pb: 0, position: "relative", zIndex: 999 }}>
           <p className="text-sm" style={{ color: "var(--muted)" }}>
             Are you sure you want to delete{" "}
             <span className="font-semibold" style={{ color: "var(--text)" }}>

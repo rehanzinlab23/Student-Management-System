@@ -30,7 +30,7 @@ export default function UpdateStudentModal({
       }}
     >
       <DialogTitle sx={{ fontWeight: 600 }}>Update Student</DialogTitle>
-      <DialogContent>
+      <DialogContent sx={{ position: "relative", zIndex: 999 }}>
         <TextField
           margin="dense"
           name="name"
