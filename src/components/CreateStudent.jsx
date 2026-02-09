@@ -124,7 +124,7 @@ const CreateStudent = ({ getStudents, students }) => {
         <DialogTitle sx={{ fontWeight: 600, pb: 1.5 }}>
           Unable to Create
         </DialogTitle>
-        <DialogContent sx={{ pb: 0, position: "relative", zIndex: 999 }}>
+        <DialogContent sx={{ pb: 0 }}>
           <p className="text-sm" style={{ color: "var(--muted)" }}>
             {errorMessage}
           </p>
